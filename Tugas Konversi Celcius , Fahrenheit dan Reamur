@@ -1,0 +1,20 @@
+#Include <Stdio.h> //File Extended
+#Include <Conio.h>
+
+Main()
+
+{
+  Float Celcius ;
+  Float Fahrenheit ;
+  Float Reamur ;
+  Celcius = 0;
+  Printf(" Konversi Suhu Celcius Fahrenheit Dan Reamur Ke Dalam Bentuk Bahasa C Dari Andri Septian""\n""\n"" Suhu Celcius Dimasukkan : ");
+  Scanf("%f",&Celcius);
+  Fahrenheit=Celcius*1.8+32;
+  Reamur=Celcius*0.8;
+  Printf("\n");
+  Printf("Jadi %2.2f Suhu Derajat Celcius Sama Dengan : ""\n""\n""- %2.2f Suhu Derajat Fahrenheit""\n""- %2.2f Suhu Derajat Reamur" Celcius Fahrenheit Dan Reamur);
+  Printf("\n""\n"" Selesai :) Tekan Sembarang Untuk Keluar");
+  Getch();
+  Return 0;
+}
